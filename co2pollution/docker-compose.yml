@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  co2pollution:
+    build: .
+    image: battles/co2pollution
+    ports:
+      - 15901:31337
+    environment:
+      - flag=battles{beware_pr0tp0l}
+    container_name: co2pollution
