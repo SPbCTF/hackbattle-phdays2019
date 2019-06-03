@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice</title>
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap-theme.min.css">
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    <style type="text/css">
+  	  #us{
+  		float: right;
+  		margin-right: 20px;
+  		margin-top: 10px;
+  	  }
+  	  #us h3{
+  		margin: 0 0 0 0;
+  	  }
+  	  table tr{
+  		padding-top: 10px;
+
+  	  }
+  	  table tr td{
+  		padding-left: 20px;
+  		font-size: 22px;
+      table-layout: fixed;
+      width: 190px; }
+      table tr td.a{
+  		padding-left: 20px;
+  		font-size: 22px;
+      table-layout: fixed;
+      width: 100px; }
+  	  }
+  	  table tr td h4{
+  		font-weight: bold;
+  	  }
+  	  #signout{
+
+  		width: 100px;
+  		height: 20px;
+  	  }
+  	  #signout a{
+  		padding: 2px 0px 2px 20px;
+  	  }
+  	  .edit_pro{
+  	  	width: 10%;
+  	  	float: right;
+  	  }
+  	  .row{
+  	  	background-color: white;
+  	  }
+  	</style>
+    </head>
+<body>
+<div id="us">
+<ul class="nav nav-pills">
+  <li><h3> {{session['current_user']}} &nbsp</h3></li>
+  <li role="presentation" class="active" id="signout"><a href="/logout">Sign Out</a></li>
+ </ul>
+</div>
+<div>
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="">Dice</a></li>
+  <li role="presentation"><a href="/about_user">About</a></li>
+</ul>
+</div>
+<div class="row">
+	<div class="col-md-8">
+  		<table align="right">
+			<tr>
+	  			<td class="a"> <h4>Your score</h4></td>
+          <td><img id="dice_you" src="{{image.you}}" style="height: 100px"></td>
+			</tr>
+			<tr>
+	  			<td class="a"> <h4>Opponent score</h4></td>
+          <td><img id="dice_you" src="{{image.bot}}" style="height: 100px"></td>
+			</tr>
+			<tr>
+          <td class="a"> <h4></h4></td>
+	  			<td class="a"><h4><form action="{{url_for('dice')}}" method="post">
+            <input type="submit" value="Roll dice"></h4></td>
+			</tr>
+			<tr>
+	  			<td class="a"><h4>Results:</h4></td>
+	  			<td><p>{{winner.winner}}</p></td>
+			</tr>
+  		</table>
+	</div>
+</div>
+<div>
+</body>
+</html>

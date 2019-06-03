@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dice Simulator 2007</title>
+
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap-theme.min.css">
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+  <body>
+    <div id="us">
+    <ul class="nav nav-pills">
+      <li><h3>{{session['current_user']}} &nbsp;</h3></li>
+      <li role="presentation" class="active" id="signout"><a href="/logout">Sign Out</a></li>
+     </ul>
+    </div>
+    <div>
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="/dice">Dice</a></li>
+      <li role="presentation"><a href="/about_user">About</a></li>
+    </ul>
+    </div>
+
+    </div>
+    {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    {% for message in messages %}
+      <h3 class="flashes" align="center" style="color:#337ab7">{{ message }}</h3>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+  </body>
+</html>
