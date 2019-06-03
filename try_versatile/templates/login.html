@@ -1,0 +1,74 @@
+{% extends 'base.html' %} {% block content%}
+<div class="container" style="padding-top: 20px;">
+  <div class="columns">
+    <div class="column">
+      <div class="content">
+        <form action="/api/login" method="post">
+          <label class="label">Login</label>
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="login"
+                name="user"
+              />
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="password"
+                placeholder="password"
+                name="password"
+              />
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <button class="button is-success">
+                Login
+              </button>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <form action="/api/signup" method="post">
+          <label class="label">Signup</label>
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="login"
+                name="user"
+              />
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="password"
+                placeholder="password"
+                name="password"
+              />
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <button class="button is-success">
+                Signup
+              </button>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

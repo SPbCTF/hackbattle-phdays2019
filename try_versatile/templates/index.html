@@ -1,0 +1,98 @@
+{% extends 'base.html' %} {% block content%}
+<style>
+  .section {
+    padding: 1rem 0.5rem;
+  }
+
+  body {
+    background-image: linear-gradient(141deg, #efefbb, #d4d3dd);
+  }
+</style>
+<div class="container" style="padding-top: 20px;">
+  <div class="columns">
+    <div class="column is-four-fifths">
+      <section class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+            {% with messages = get_flashed_messages() %} {% if messages %} {%
+            for message in messages %}
+            <div class="notification is-danger">{{ message }}</div>
+            {% endfor %} {% endif %} {% endwith %}
+            <h1 class="title">Your files</h1>
+            {% for folder in tree %}
+            <div class="text">{{ folder }}</div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="column">
+      <h1 class="title">Manual control</h1>
+      <section class="section">
+        <form action="/api/tree" method="post">
+          <input name="dirpath" value="." hidden />
+          <button class="button">Tree</button>
+        </form>
+      </section>
+      <section class="section">
+        <h2 class="subtitle">Get files</h2>
+        <form action="/api/read" method="post">
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="filename"
+                name="filename"
+              />
+            </p>
+          </div>
+          <button class="button">Get</button>
+        </form>
+      </section>
+      <section class="section">
+        <h2 class="subtitle">Make dir</h2>
+        <form action="/api/mkdir" method="post">
+          <div class="field">
+            <p class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="dirname"
+                name="dir"
+              />
+            </p>
+          </div>
+          <button class="button">Mkdir</button>
+        </form>
+      </section>
+      <section class="section">
+        <h2 class="subtitle">
+          Upload files
+        </h2>
+        <form action="/api/upload" method="post" enctype="multipart/form-data">
+          <div class="file field">
+            <label class="file-label">
+              <input class="file-input" type="file" name="file" id="file" />
+              <span class="file-cta">
+                <span class="file-label" id="file-label">
+                  Choose a file…
+                </span>
+              </span>
+            </label>
+          </div>
+          <button class="button">Upload</button>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+<script>
+  let file = document.getElementById("file");
+  file.onchange = function() {
+    if (file.files.length > 0) {
+      document.getElementById("file-label").innerHTML = file.files[0].name;
+    }
+  };
+</script>
+{% endblock %}

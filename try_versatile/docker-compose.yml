@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  try_versatile:
+    build: .
+    image: battles/try_versatile
+    ports:
+      - 14001:31337
