@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  miss_me:
+    build: .
+    image: battles/miss_me
+    ports:
+      - 15501:5454
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
