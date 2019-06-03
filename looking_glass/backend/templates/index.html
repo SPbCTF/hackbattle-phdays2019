@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Looking glass lets you spy on sites anonymously 😜🕵️‍♂️</h1>
+
+<form action="/look" method="get">
+  <input type="url" name="url" />
+  <button type="submit">Go</button>
+</form>
+
+{% endblock %}

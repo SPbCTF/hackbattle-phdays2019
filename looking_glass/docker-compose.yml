@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  apache:
+    build: .
+    image: battles/lg_apache
+    ports:
+      - 11501:80
+
+  repeater:
+    build: ./repeater
+    image: battles/lg_repeater
+
