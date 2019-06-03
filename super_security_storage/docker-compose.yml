@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  super_secure_storage:
+    build: .
+    image: battles/super_secure_storage
+    ports:
+      - 14401:18800
+    container_name: super_secure_storage
