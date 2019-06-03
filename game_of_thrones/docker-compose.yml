@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  game_of_thrones:
+    build: .
+    image: battles/game_of_thrones
+    ports:
+      - 12001:10000
