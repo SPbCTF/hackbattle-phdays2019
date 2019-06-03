@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  vault:
+    build: .
+    image: battles/vault
+    ports:
+      - 15101:31337
+    environment:
+      - flag=battles{never_parse_user_input_structures!!!}
