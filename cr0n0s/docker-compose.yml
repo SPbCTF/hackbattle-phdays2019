@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  cr0n0s:
+    build: .
+    image: battles/cr0n0s
+    ports:
+      - "15201:22"
