@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Riddle</title>
+  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid h-100 text-light">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <div class="row justify-content-center align-items-center">
+            <h1>Can you guess the answer?</h1>    
+          </div>
+          <div class="form-group">
+            <div class="row align-items-center">
+              <div class="col col-md-2"><h1 class="text-right">CTF{</h1></div>
+              <div class="col col-md-9"><input type="text" id="input_pass" class="form-control form-control-lg" /></div>
+              <div class="col col-md-1"><h1 class="text-left">}</h1></div>
+            </div>
+          </div>
+          <div class="container">
+            <button id="check" class="col-2 btn btn-dark btn-lg">Guess</button>
+            <input type="hidden" name="spbctf_2019"></input>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="check_modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <img id="check_result" src="" class="img-responsive">
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="module">
+      import { check_password, default as init } from './js/riddle.js';
+
+      async function init_checker() {
+        await init('./js/riddle_bg.wasm');
+
+        var button = document.getElementById('check');
+        button.addEventListener('click', function() {
+          const result = check_password(document.getElementById('input_pass').value);
+          if (result) {
+            document.getElementById("check_result").src = "img/right.png";
+          } else {
+            document.getElementById("check_result").src = "img/wrong.png";
+          }
+
+          $("#check_modal").modal("show");
+        }, false);
+      }
+
+      init_checker();
+    </script>
+
+  </body>
+</html>

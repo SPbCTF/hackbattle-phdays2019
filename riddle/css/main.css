@@ -1,0 +1,30 @@
+html,
+body{
+  height: 100%;
+}
+
+body {
+  background-image: url('../img/background.jpeg'); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.modal-body {
+  position:relative; 
+  height: 250px;
+}
+
+.img-responsive {
+  width: 256px; 
+  height: 256px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-top:-128px; 
+  margin-left:-128px;
+}
