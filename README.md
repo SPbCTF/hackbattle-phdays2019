@@ -36,6 +36,7 @@
 Визуальные эффекты: [grokeus](https://github.com/grokeus)  
 Красные кнопки: [AetherEternity](https://github.com/AetherEternity)  
 Подговнилки: [grokeus](https://github.com/grokeus), [awengar](https://github.com/awengar)  
+Трансляция: [grokeus](https://github.com/grokeus), [v0s](https://github.com/v0s)  
 Телеграм-бот: [nsychev](https://github.com/nsychev)
 
 ## Лицензия
