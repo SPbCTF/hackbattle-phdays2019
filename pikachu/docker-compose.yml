@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  pikachu:
+    build: .
+    image: battles/pikachu
+    ports:
+      - 12601:5000
+    container_name: pikachu

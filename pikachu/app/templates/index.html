@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Eternal Login Service</title>
+    </head>
+    <body>
+        <h1>Logger service</h1>
+        <div>Username: {{username}}</div>
+        <div>Password: {{password}}</div>
+        <div>Status: {{role}}</div>
+        <div>Sorry, but no info here :(</div>
+        <div>
+            You can login later with this string: {{auth}}
+        </div>
+        <form method='post' action='/logout'>
+            <input type='submit' value="Logout">
+        </form>
+    </body>
+</html>
