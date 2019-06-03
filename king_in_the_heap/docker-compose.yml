@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  king_in_the_heap:
+    build: .
+    image: battles/king_in_the_heap
+    ports:
+      - 13901:7777
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
