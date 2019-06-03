@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  pass_the_pass:
+    build: .
+    image: battles/pass_the_pass
+    ports:
+      - 13701:31337
