@@ -1,0 +1,98 @@
+  2           0 LOAD_CONST               0 (14)
+              2 LOAD_CONST               1 (17)
+              4 LOAD_CONST               2 (5)
+              6 LOAD_CONST               3 (10)
+              8 LOAD_CONST               4 (4)
+             10 LOAD_CONST               5 (16)
+             12 LOAD_CONST               6 (8)
+             14 LOAD_CONST               7 (6)
+             16 LOAD_CONST               8 (12)
+             18 LOAD_CONST               9 (9)
+             20 LOAD_CONST              10 (18)
+             22 LOAD_CONST              11 (11)
+             24 LOAD_CONST              12 (23)
+             26 LOAD_CONST              13 (19)
+             28 LOAD_CONST              14 (0)
+             30 LOAD_CONST              15 (15)
+             32 LOAD_CONST              16 (22)
+             34 LOAD_CONST              17 (7)
+             36 LOAD_CONST              18 (21)
+             38 LOAD_CONST              19 (24)
+             40 LOAD_CONST              20 (1)
+             42 LOAD_CONST              21 (2)
+             44 LOAD_CONST              22 (13)
+             46 LOAD_CONST              23 (20)
+             48 LOAD_CONST              24 (3)
+             50 BUILD_LIST              25
+             52 STORE_NAME               0 (a)
+
+  3          54 LOAD_CONST              25 ('0')
+             56 LOAD_CONST              26 ('b')
+             58 LOAD_CONST              27 ('4')
+             60 LOAD_CONST              28 ('p')
+             62 LOAD_CONST              29 ('7')
+             64 LOAD_CONST              30 ('_')
+             66 LOAD_CONST              31 ('y')
+             68 LOAD_CONST              32 ('5')
+             70 LOAD_CONST              29 ('7')
+             72 LOAD_CONST              30 ('_')
+             74 LOAD_CONST              31 ('y')
+             76 LOAD_CONST              31 ('y')
+             78 LOAD_CONST              33 ('d')
+             80 LOAD_CONST              29 ('7')
+             82 LOAD_CONST              34 ('Y')
+             84 LOAD_CONST              35 ('n')
+             86 LOAD_CONST              25 ('0')
+             88 LOAD_CONST              29 ('7')
+             90 LOAD_CONST              36 ('c')
+             92 LOAD_CONST              37 ('3')
+             94 LOAD_CONST              38 ('Z')
+             96 LOAD_CONST              39 ('H')
+             98 LOAD_CONST              40 ('h')
+            100 LOAD_CONST              37 ('3')
+            102 LOAD_CONST              30 ('_')
+            104 BUILD_LIST              25
+            106 STORE_NAME               1 (b)
+
+  4         108 LOAD_CONST              41 ('')
+            110 STORE_NAME               2 (flag)
+
+  5         112 SETUP_LOOP              66 (to 180)
+            114 LOAD_NAME                3 (range)
+            116 LOAD_NAME                4 (len)
+            118 LOAD_NAME                1 (b)
+            120 CALL_FUNCTION            1
+            122 CALL_FUNCTION            1
+            124 GET_ITER
+        >>  126 FOR_ITER                50 (to 178)
+            128 STORE_NAME               5 (i)
+
+  6         130 SETUP_LOOP              44 (to 176)
+            132 LOAD_NAME                3 (range)
+            134 LOAD_NAME                4 (len)
+            136 LOAD_NAME                0 (a)
+            138 CALL_FUNCTION            1
+            140 CALL_FUNCTION            1
+            142 GET_ITER
+        >>  144 FOR_ITER                28 (to 174)
+            146 STORE_NAME               6 (j)
+
+  7         148 LOAD_NAME                0 (a)
+            150 LOAD_NAME                6 (j)
+            152 BINARY_SUBSCR
+            154 LOAD_NAME                5 (i)
+            156 COMPARE_OP               2 (==)
+            158 POP_JUMP_IF_FALSE      144
+
+  8         160 LOAD_NAME                2 (flag)
+            162 LOAD_NAME                1 (b)
+            164 LOAD_NAME                6 (j)
+            166 BINARY_SUBSCR
+            168 INPLACE_ADD
+            170 STORE_NAME               2 (flag)
+            172 JUMP_ABSOLUTE          144
+        >>  174 POP_BLOCK
+        >>  176 JUMP_ABSOLUTE          126
+        >>  178 POP_BLOCK
+        >>  180 LOAD_CONST              42 (None)
+            182 RETURN_VALUE
