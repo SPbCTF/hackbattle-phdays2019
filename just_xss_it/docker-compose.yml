@@ -1,0 +1,13 @@
+just_xss_it_nginx:
+    image: nginx:latest
+    ports:
+        - "14801:80"
+    volumes:
+        - ./public:/public
+        - ./site.conf:/etc/nginx/conf.d/default.conf
+    links:
+        - just_xss_it_php
+just_xss_it_php:
+    image: php:7-fpm
+    volumes:
+        - ./public:/public
