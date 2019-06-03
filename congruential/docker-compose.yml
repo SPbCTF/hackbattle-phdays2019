@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  congruental:
+    build: .
+    image: battles/congruental
+    ports:
+      - 11301:31337
+    container_name: congruental
