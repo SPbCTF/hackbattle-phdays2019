@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <h1>Welcome to JAW - Just Another Website!</h1>
+    <h3>Hello there! You`ve got to ... well, just another website!</h3>
+    <br>
+    <p><b>Note:</b> Site is still under construction, and many features are not yet available.</p>
+    <div style="max-width:1000px;">
+        <img class="main-page" src="{{url_for('.static', filename='images/under-construction.png')}}" alt="">
+    </div>
+    <br>
+{% endblock %}

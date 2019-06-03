@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>404 File Not Found</h1>
+    <br>
+    <div style="max-width:1000px;">
+        <img class="main-page" src="{{url_for('.static', filename='images/nothing.png')}}" alt="">
+    </div>
+    <br>
+{% endblock %}

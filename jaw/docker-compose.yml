@@ -1,0 +1,7 @@
+version: '3'
+services:
+  jaw:
+    build: .
+    image: battles/jaw
+    ports:
+     - 13401:9000

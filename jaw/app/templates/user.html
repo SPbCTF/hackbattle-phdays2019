@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>{{ user.username }}`s user page</h1>
+    <p>Sometime some content will appear here</p>
+    <p>But for now I will leave here only a placeholder</p>
+    <br>
+    <h3 text-center>
+        CTF{TH3_GR3AT35T_S1T3_0V3R_TH3_1NT3RN3T}
+    </h3>
+    <br>
+    <div style="max-width:1000px;">
+        <img class="main-page" src="{{url_for('.static', filename='images/nothing.png')}}" alt="">
+    </div>
+    <br>
+{% endblock %}
