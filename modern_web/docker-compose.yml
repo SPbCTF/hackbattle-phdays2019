@@ -1,0 +1,15 @@
+modern_web_nginx:
+    image: nginx:latest
+    ports:
+        - "10301:80"
+    volumes:
+        - ./public:/public
+        - ./site.conf:/etc/nginx/conf.d/default.conf
+    links:
+        - modern_web_php
+modern_web_php:
+    image: php:7-fpm
+    volumes:
+        - ./public:/public
+        - ./php.ini:/usr/local/etc/php/php.ini
+        - ./browscap.ini:/usr/local/etc/php/extra/browscap.ini
