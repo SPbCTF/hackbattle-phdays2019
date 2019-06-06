@@ -1,1 +1,10 @@
-Ïðî÷èòàòü ôàéë ñêðèïòîì â /tmp/
+Ð’ Ð¿Ð°Ð¿ÐºÑƒ scripts Ð¿Ð¾Ð¼ÐµÑÑ‚Ð¸Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ³Ð¾ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸Ñ:
+
+```bash
+#!/bin/bash
+
+cat /home/cr0n0s/flag_cr0n0s/flag.txt > /tmp/flag
+chmod 777 /tmp/flag
+```
+
+Flag: `flag{i_kn0w_cr0n_4nd_1ik3_17}`
