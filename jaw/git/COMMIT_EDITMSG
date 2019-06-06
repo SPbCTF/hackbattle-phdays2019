@@ -1,0 +1,23 @@
+Add error handling
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri May 10 20:53:29 2019 +0300
+#
+# interactive rebase in progress; onto 2523ba4
+# Last commands done (7 commands done):
+#    edit 14fcabf Add user page and start work on register
+#    edit f3aa209 Add error handling
+# No commands remaining.
+# You are currently editing a commit while rebasing branch 'master' on '2523ba4'.
+#
+# Changes to be committed:
+#	modified:   app/__init__.py
+#	new file:   app/errors.py
+#	new file:   app/templates/404.html
+#	new file:   app/templates/500.html
+#
+# Untracked files:
+#	requirments.txt
+#

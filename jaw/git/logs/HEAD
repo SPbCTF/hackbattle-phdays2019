@@ -1,0 +1,62 @@
+0000000000000000000000000000000000000000 2099a96421a06279183f8685ec20fa0dcd41f8b7 The real Admin <admin@example.com> 1557509974 +0300	commit (initial): Initial commit
+2099a96421a06279183f8685ec20fa0dcd41f8b7 3de3acf905a0470bb2cdf4f513cdc83fce3a3b95 The real Admin <admin@example.com> 1557510099 +0300	commit: Add basic user model
+3de3acf905a0470bb2cdf4f513cdc83fce3a3b95 2119d2bfd19fac833f50740efb42bafc648da510 The real Admin <admin@example.com> 1557510235 +0300	commit: Add login form
+2119d2bfd19fac833f50740efb42bafc648da510 c9c16c22b59dc07330ba9326cfe11d42c1ef7caa The real Admin <admin@example.com> 1557510411 +0300	commit: Add images
+c9c16c22b59dc07330ba9326cfe11d42c1ef7caa d38241a04224f89a00842cd5d3cf04662e542992 The real Admin <admin@example.com> 1557510673 +0300	commit: Fix some issues
+d38241a04224f89a00842cd5d3cf04662e542992 3cd7a694b41a341df76956b036ee2fdc27052369 The real Admin <admin@example.com> 1557510762 +0300	commit: Add user page and start work on register
+3cd7a694b41a341df76956b036ee2fdc27052369 d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557510809 +0300	commit: Add error handling
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557567693 +0300	reset: moving to HEAD
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557567704 +0300	rebase -i (start): checkout 2099
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557567704 +0300	rebase -i (finish): returning to refs/heads/master
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557567733 +0300	rebase -i (start): checkout master
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c d71394c77fd9dbcaf6c2f809e874ca37198c7d2c The real Admin <admin@example.com> 1557567733 +0300	rebase -i (finish): returning to refs/heads/master
+d71394c77fd9dbcaf6c2f809e874ca37198c7d2c 81153e2d0879db1376d476139e9b3e97c191cafc The real Admin <admin@example.com> 1557567772 +0300	rebase -i (start): checkout 81153e2d0879db1376d476139e9b3e97c191cafc
+81153e2d0879db1376d476139e9b3e97c191cafc 5c99ecca0a688005bb3c4769fed6fbee0ff2c9a2 The real Admin <admin@example.com> 1557567772 +0300	rebase -i (edit): Initial commit
+5c99ecca0a688005bb3c4769fed6fbee0ff2c9a2 11a232e615c0135e21f92f87a00f240dc8bc01c7 The real Admin <admin@example.com> 1557567772 +0300	rebase -i (edit): Initial commit
+11a232e615c0135e21f92f87a00f240dc8bc01c7 3098fc16d6c6dc08d8252f277dbc0872dac0dd81 The real Admin <admin@example.com> 1557567833 +0300	rebase -i (edit): Add basic user model
+3098fc16d6c6dc08d8252f277dbc0872dac0dd81 839ce8d690e230a2bf50b862b7ce53b05fa42c7f The real Admin <admin@example.com> 1557568015 +0300	rebase -i (continue): Add basic user model
+839ce8d690e230a2bf50b862b7ce53b05fa42c7f b32043a16aff13d607f2a2870bce13372d803069 The real Admin <admin@example.com> 1557568020 +0300	rebase -i (edit): Add login form
+b32043a16aff13d607f2a2870bce13372d803069 93bd2cc7d757a7d5d782a834b725c365f33c2587 The real Admin <admin@example.com> 1557568192 +0300	rebase -i (continue): Add login form
+93bd2cc7d757a7d5d782a834b725c365f33c2587 9f1a9076768d9b89d402dba0dcb818e21558d28a The real Admin <admin@example.com> 1557568196 +0300	rebase -i (edit): Add images
+9f1a9076768d9b89d402dba0dcb818e21558d28a b9585da710787ee17a6e1c1284f73bd346053ecc The real Admin <admin@example.com> 1557568612 +0300	rebase -i (continue): Change user model and login validating
+b9585da710787ee17a6e1c1284f73bd346053ecc b8f5c943ab4293b9b9efb53eb6115659744ee90e The real Admin <admin@example.com> 1557568745 +0300	rebase -i (edit): Add user page and start work on register
+b8f5c943ab4293b9b9efb53eb6115659744ee90e 5f612887e5cb1f062d27a482f9a6e87a71a2dec2 The real Admin <admin@example.com> 1557568753 +0300	rebase -i (edit): Add error handling
+5f612887e5cb1f062d27a482f9a6e87a71a2dec2 5f612887e5cb1f062d27a482f9a6e87a71a2dec2 The real Admin <admin@example.com> 1557568761 +0300	rebase -i (finish): returning to refs/heads/master
+5f612887e5cb1f062d27a482f9a6e87a71a2dec2 5b37285b04612b3f311b70ec79e67db4e4ccc9fc The real Admin <admin@example.com> 1557569181 +0300	rebase -i (start): checkout 5b37285b04612b3f311b70ec79e67db4e4ccc9fc
+5b37285b04612b3f311b70ec79e67db4e4ccc9fc aec1d3239b6026162611cf7eb3d0c8f4638597b0 The real Admin <admin@example.com> 1557569181 +0300	rebase -i (edit): Initial commit
+aec1d3239b6026162611cf7eb3d0c8f4638597b0 15eee56ce8a1da45c0ec85ab4a9d70bd16f40a0b The real Admin <admin@example.com> 1557569181 +0300	rebase -i (edit): Initial commit
+15eee56ce8a1da45c0ec85ab4a9d70bd16f40a0b ddd6a7d6baf6c7f3536fb1bf0f39b8346162b3c2 The real Admin <admin@example.com> 1557569390 +0300	rebase -i (continue): Initial commit
+ddd6a7d6baf6c7f3536fb1bf0f39b8346162b3c2 33054beef038e3c08ce1546609830c7e05ceff19 The real Admin <admin@example.com> 1557569393 +0300	rebase -i (edit): Add basic user model
+33054beef038e3c08ce1546609830c7e05ceff19 ce10c6e5632c3f917e67abf3319ff1921f164665 The real Admin <admin@example.com> 1557569530 +0300	rebase -i (continue): Add basic user model
+ce10c6e5632c3f917e67abf3319ff1921f164665 5d4536164c120181cce7217ec1fea8f273629580 The real Admin <admin@example.com> 1557569533 +0300	rebase -i (edit): Add login form
+5d4536164c120181cce7217ec1fea8f273629580 541a6dbc31978696f75b310fea5eaec07941bf3c The real Admin <admin@example.com> 1557569760 +0300	rebase -i (continue): Add login form
+541a6dbc31978696f75b310fea5eaec07941bf3c b1ab08ab2608654ae1490262845292e502ffabaa The real Admin <admin@example.com> 1557569764 +0300	rebase -i (edit): Add images
+b1ab08ab2608654ae1490262845292e502ffabaa 7de4cc4d0de100362e3258f2c706663dbc13a089 The real Admin <admin@example.com> 1557569791 +0300	rebase -i (edit): Change user model and login validating
+7de4cc4d0de100362e3258f2c706663dbc13a089 38d7f07f3882096f44b7b39307df6f6a9278f6ac The real Admin <admin@example.com> 1557569874 +0300	rebase -i (continue): Change user model and login validation
+38d7f07f3882096f44b7b39307df6f6a9278f6ac 55a375849cd9bf8e1608b000bb97e939d4c172ef The real Admin <admin@example.com> 1557569889 +0300	rebase -i (edit): Add user page and start work on register
+55a375849cd9bf8e1608b000bb97e939d4c172ef b2fcb19623855c1feac88bc129577c567bdb9d09 The real Admin <admin@example.com> 1557569915 +0300	rebase -i (edit): Add error handling
+b2fcb19623855c1feac88bc129577c567bdb9d09 b2fcb19623855c1feac88bc129577c567bdb9d09 The real Admin <admin@example.com> 1557569928 +0300	rebase -i (finish): returning to refs/heads/master
+b2fcb19623855c1feac88bc129577c567bdb9d09 9891e85e926259d5744d4aec677970c4431dd815 The real Admin <admin@example.com> 1557570075 +0300	rebase -i (start): checkout 9891e85e926259d5744d4aec677970c4431dd815
+9891e85e926259d5744d4aec677970c4431dd815 a8a991cdc51fcfd1cf3b91cdbd0374acdefdfb43 The real Admin <admin@example.com> 1557570075 +0300	rebase -i (edit): Initial commit
+a8a991cdc51fcfd1cf3b91cdbd0374acdefdfb43 8df14b853fa88b0e82838a429977c3e49e4a01ba The real Admin <admin@example.com> 1557570076 +0300	rebase -i (edit): Initial commit
+8df14b853fa88b0e82838a429977c3e49e4a01ba af0f338ada7af804ce9607718ebe77abef4052da The real Admin <admin@example.com> 1557570114 +0300	rebase -i (continue): Initial commit
+af0f338ada7af804ce9607718ebe77abef4052da f8d6f5ef52726fd935338f61ffb5f4ccbeb13d08 The real Admin <admin@example.com> 1557570165 +0300	rebase -i (continue): Add basic user model
+f8d6f5ef52726fd935338f61ffb5f4ccbeb13d08 e706eb4aa70197238befbca3788e50f39afd0788 The real Admin <admin@example.com> 1557570167 +0300	rebase -i (edit): Add login form
+e706eb4aa70197238befbca3788e50f39afd0788 d88e8fda0303b00f684104bce2632d2dc586e813 The real Admin <admin@example.com> 1557570212 +0300	rebase -i (edit): Add images
+d88e8fda0303b00f684104bce2632d2dc586e813 d096dfbe098a04142aea7cc1b37830ce13224e47 The real Admin <admin@example.com> 1557570219 +0300	rebase -i (edit): Change user model and login validation
+d096dfbe098a04142aea7cc1b37830ce13224e47 14fcabf4a737ee0796be2396c30480930a46a9c6 The real Admin <admin@example.com> 1557570240 +0300	rebase -i (edit): Add user page and start work on register
+14fcabf4a737ee0796be2396c30480930a46a9c6 f3aa209b21a184742a07b82633f6851362d06a80 The real Admin <admin@example.com> 1557570241 +0300	rebase -i (edit): Add error handling
+f3aa209b21a184742a07b82633f6851362d06a80 f3aa209b21a184742a07b82633f6851362d06a80 The real Admin <admin@example.com> 1557570243 +0300	rebase -i (finish): returning to refs/heads/master
+f3aa209b21a184742a07b82633f6851362d06a80 2523ba40bd65dd6ce9e2b38ba5503625e97ec28d The real Admin <admin@example.com> 1557570300 +0300	rebase -i (start): checkout 2523ba40bd65dd6ce9e2b38ba5503625e97ec28d
+2523ba40bd65dd6ce9e2b38ba5503625e97ec28d b7afe29e5c8568ec356c33ede82201a77b699e82 The real Admin <admin@example.com> 1557570300 +0300	rebase -i (edit): Initial commit
+b7afe29e5c8568ec356c33ede82201a77b699e82 b1fea05b5a8d61322449477cf650476b6a31da03 The real Admin <admin@example.com> 1557570300 +0300	rebase -i (edit): Initial commit
+b1fea05b5a8d61322449477cf650476b6a31da03 184129cc2cfb9f728f54168b28f58e81cfe73e7d The real Admin <admin@example.com> 1557570311 +0300	rebase -i (edit): Add basic user model
+184129cc2cfb9f728f54168b28f58e81cfe73e7d abb6a1bf5264b76c4c747eeb3976e1901bb9ae9e The real Admin <admin@example.com> 1557570365 +0300	rebase -i (continue): Add basic user model
+abb6a1bf5264b76c4c747eeb3976e1901bb9ae9e 40ace85ce4a8cc478e4a296eda8f4cc594e73a96 The real Admin <admin@example.com> 1557570374 +0300	rebase -i (edit): Add login form
+40ace85ce4a8cc478e4a296eda8f4cc594e73a96 d8d394552c1367b356b7cc3937ae635f9aa9e8b9 The real Admin <admin@example.com> 1557570429 +0300	rebase -i (continue): Add login and feedback forms
+d8d394552c1367b356b7cc3937ae635f9aa9e8b9 b2ec04d2c577b5c6b65d06412dd309e69c3b7feb The real Admin <admin@example.com> 1557570445 +0300	rebase -i (edit): Add images
+b2ec04d2c577b5c6b65d06412dd309e69c3b7feb c6548cc2eab853dc6351fdaa66e12a1391dcc1b6 The real Admin <admin@example.com> 1557570456 +0300	rebase -i (edit): Change user model and login validation
+c6548cc2eab853dc6351fdaa66e12a1391dcc1b6 19abec8f4d93cbf44b3e662656fd461910f4426b The real Admin <admin@example.com> 1557570461 +0300	rebase -i (edit): Add user page and start work on register
+19abec8f4d93cbf44b3e662656fd461910f4426b bd7f9c174f27b7eab2c1620c96bc37209197b323 The real Admin <admin@example.com> 1557570464 +0300	rebase -i (edit): Add error handling
+bd7f9c174f27b7eab2c1620c96bc37209197b323 5472216010d14f77a1fad8b8dffed4ef77644a92 The real Admin <admin@example.com> 1557570482 +0300	rebase -i (continue): Add error handling
+5472216010d14f77a1fad8b8dffed4ef77644a92 5472216010d14f77a1fad8b8dffed4ef77644a92 The real Admin <admin@example.com> 1557570485 +0300	rebase -i (finish): returning to refs/heads/master

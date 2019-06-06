@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[user]
+	name = The real Admin
+	email = admin@example.com
+[gui]
+	wmstate = normal
+	geometry = 1109x563+96+96 216 255
