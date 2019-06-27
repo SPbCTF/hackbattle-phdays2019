@@ -1,7 +1,7 @@
 ﻿# Limited Machine Gun
 
 ## Автор
-Lex_SD ([vam6612](https://github.com/vam6612))
+Lex_SD ([vam6612](https://github.com/lex-sd))
 
 ## Задание
 ```
