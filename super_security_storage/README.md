@@ -1,7 +1,7 @@
 ﻿# Super Security Storage
 
 ## Автор
-@Lex_SD ([vam6612](https://github.com/lex-sd))
+@Lex_SD ([lex-sd](https://github.com/lex-sd))
 
 ## Задание
 ```
